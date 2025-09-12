@@ -1,0 +1,21 @@
+:root{
+    --content: 820px;
+    --nudge: 0.50;
+}
+*{ box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background: #717171;
+}
+
+main {
+    max-width: 800px;
+    width: min(100%, 800px);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
